@@ -1,0 +1,357 @@
+$wd: 100%;
+$montserrat: 'Montserrat', sans-serif;
+$opensans: 'Open Sans', sans-serif;
+$roboto: 'Roboto', sans-serif;
+$white: #fff;
+$black:#111111;
+$purple: #7c5dde;
+$rem: 16px;
+$rem125: 16px * 1.25;
+$rem15: 16px * 1.5;
+$rem3: 16px * 3;
+$rem375: 16px * 3.75;
+$weight7: 700;
+$weight4: 400;
+$weight3: 300;
+
+.wd {
+    max-width: $wd;
+}
+
+.button {
+    font-family: $opensans;
+}
+
+.text_white {
+    font-size: $rem;
+    font-family: $opensans;
+    color: $white;
+    font-weight: $weight4;
+    line-height: 1.6;
+}
+
+.text_black {
+    font-size: $rem;
+    font-family: $opensans;
+    color: $black;
+    font-weight: $weight4;
+    line-height: 1.6;
+}
+
+.text_purple {
+    font-size: $rem;
+    font-family: $opensans;
+    color: $purple;
+    font-weight: $weight7;
+    line-height: 1.6;
+}
+
+.container {
+    width: 940px;
+    height: 552px;
+    margin: auto;
+}
+
+.container_extra {
+    width: 940px;
+    margin: auto;
+}
+
+.appointment__title {
+    font-size: $rem375;
+    font-family: $montserrat;
+    color: $white;
+    font-weight: $weight7;
+}
+
+.appointment_container__left {
+    width: 548px;
+    height: 551px;
+    padding: 30px;
+}
+
+.appointment_container__right {
+    width: 391px;
+    height: 551px;
+    padding: 30px;
+}
+
+.appointment_heading {
+    font-family: $montserrat;
+    font-size: $rem15;
+    color: $white;
+    font-weight: $weight7;
+}
+
+.appointment_text {
+    margin: 21px 0;
+}
+
+.input_container {
+    width: $wd;
+    height: 371px;
+    background-color: #f1c50d;
+    border-radius: 25px; 
+    box-sizing: border-box;
+    padding: 40px;
+}
+
+.input_text {
+    width: $wd;
+    height: 45px;
+    border-radius: 20px;
+    padding: 12px 10px;
+    z-index: 1;
+    opacity: 1;
+    position: initial;
+}
+
+.area {
+    height: 122px;
+}
+
+.section_title {
+    font-size: $rem3;
+    font-family: $montserrat;
+    font-weight: $weight7;
+    padding-top: 50px;
+}
+
+.services_title_container {
+    margin: 47px 0 21px 0;
+}
+
+.services__item {
+    width: 266px;
+    height: 238px;
+    padding: 10px 20px;
+}
+
+.services_img {
+    width: 48px;
+    height: 48px;
+}
+
+.services_heading {
+    font-size: $rem125;
+    color: $black;
+    font-weight: $weight7;
+    font-family: $montserrat;
+    margin: 23px 0 47px 0;
+}
+
+.tab_container {
+    display: block;
+    width: 940px;
+    height: 250px;
+    background-color: $white;
+    padding: 30px;
+}
+
+.tabs_heading {
+    font-family: $montserrat;
+    font-size: $rem15;
+    color: $black;
+    font-weight: $weight7;
+}
+
+.founder_text {
+    width: 880px;
+    height: 144px;
+    margin-top: 40px;
+}
+
+.build_container {
+    margin: 50px 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.build_img {
+    width: 286px;
+    height: 286px;
+}
+
+.partners_container_left {
+    width: 300px;
+    padding: 30px;
+}
+
+.partners_container_right {
+    width: 450px;
+    padding: 30px;
+}
+
+.img_plus {
+    width: 40px;
+    height: 40px;
+}
+
+.webinar_text {
+    font-size: $rem;
+    font-family: $opensans;
+    color: $black;
+    font-weight: $weight7;
+    line-height: 1.6;
+}
+
+.consult_text_container {
+    width: 790px;
+    padding-bottom: 40px;
+}
+
+.consult_container {
+    display: flex;
+    justify-content: end;
+    text-align: center;
+}
+
+.consult__item_yellow {
+    width: 300px;
+    height: 230px;
+    background-color: #f1c50d;
+    padding: 30px;
+    margin: 0 0 30px 30px;
+}
+
+.consult__item_purple {
+    width: 300px;
+    height: 230px;
+    background-color: #7c5dde;
+    padding: 30px;
+    margin: 0 0 0 30px;
+}
+
+.consult_img {
+    width: 59px;
+    height: 59px;
+}
+
+.consult_heading {
+    font-family: $montserrat;
+    font-size: $rem15;
+    color: $white;
+    font-weight: $weight7;
+}
+
+.consult_number {
+    font-family: $opensans;
+    font-size: $rem375;
+    color: $white;
+    font-weight: $weight7;
+}
+
+.review_container {
+    width: 7344px;
+    height: 320px;   
+    background-color: $white;
+    padding: 30px;
+}
+
+.review_text {
+    font-size: $rem125;
+    font-family: $montserrat;
+    line-height: 2;
+}
+
+.purple_img {
+    width: 125px;
+    height: 380px;
+}
+
+.location_title {
+    font-family: $roboto;
+    font-weight: $weight3;
+    font-size: $rem125;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.yellow_line {
+    width: 198px;
+    height: 10px;
+    background-color: #f1c50d;
+    animation-duration: 5s;
+}
+
+$midnight: #2c3e50;
+$clouds: #ecf0f1;
+
+input {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+// Layout
+.row {
+  display:flex;
+  .col {
+    flex:1;
+    &:last-child {
+      margin-left: 1em;
+    }
+  }
+}
+/* Accordion styles */
+.dtabs {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 4px -2px rgba(0,0,0,0.5);
+}
+.tab {
+  width: 100%;
+  color: white;
+  overflow: hidden;
+  &-label {
+    display: flex;
+    justify-content: end;
+    padding: 1em;
+    background: $midnight;
+    font-weight: bold;
+    cursor: pointer;
+    /* Icon */
+    &:hover {
+      background: darken($midnight, 10%);
+    }
+    &::after {
+      content: "\276F";
+      width: 1em;
+      height: 1em;
+      text-align: center;
+      transition: all .35s;
+    }
+  }
+  &-content {
+    max-height: 0;
+    padding: 0 1em;
+    color: $midnight;
+    background: white;
+    transition: all .35s;
+  }
+  &-close {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1em;
+    font-size: 0.75em;
+    background: $midnight;
+    cursor: pointer;
+    &:hover {
+      background: darken($midnight, 10%);
+    }
+  }
+}
+
+// :checked
+input:checked {
+  + .tab-label {
+    background: darken($midnight, 10%);
+    &::after {
+      transform: rotate(90deg);
+    }
+  }
+  ~ .tab-content {
+    max-height: 100vh;
+    padding: 1em;
+  }
+}

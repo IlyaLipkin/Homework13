@@ -1,0 +1,68 @@
+.anim-show{
+    opacity:0;
+    transition: 1s; 
+    animation: show 5s 1; 
+    animation-fill-mode: forwards; 
+    animation-delay: 2s; 
+    }
+
+@keyframes show{
+    0%{
+    opacity:0;
+    }
+    100% {
+    opacity:1;
+    }
+}
+
+.header {
+    height: 72px;
+    display: flex;
+    justify-content: center;
+}
+
+.menu_img {
+    width: 24px;
+    height: 24px;
+    padding: 24px 0;
+}
+
+.appointment {
+    height: 1067px;
+    background-image: url(../img/backgroung1.jpeg);
+    background-size: cover;
+    box-sizing: border-box;
+    padding-top: 25%;
+}
+
+.services {
+    height: 747px;
+}
+
+.about_us {
+    height: 636px;
+    background-color: #f2f2f2;
+}
+
+.build_products {
+    height: 968px;
+    background-color: #f2f2f2;
+}
+
+.partners {
+    height: 700px;
+}
+
+.consult {
+    height: 934px;
+}
+
+.review {
+    height: 576px;
+    background-color: #f2f2f2;
+    margin-bottom: 60px;
+}
+
+.location {
+    height: 468px;
+}
